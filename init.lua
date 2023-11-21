@@ -1,4 +1,7 @@
+vim.g.mapleader = ","
+
 require("ChromaticSol.lazy")
+require("ChromaticSol.keymaps")
 
 -- Shows line numbering
 vim.wo.number = true
